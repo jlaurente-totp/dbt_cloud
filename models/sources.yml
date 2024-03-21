@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: cmpk
+    schema: dbt_jlaurente
+    tables:
+    - name: patient_rdv
+      identifier: cmpk_patient_rdv
