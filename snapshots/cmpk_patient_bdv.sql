@@ -2,10 +2,10 @@
 
 {{
     config(
-    target_schema='BDV',
-    unique_key='patunique',
+    target_schema='bdv',
+    unique_key='SRC_PAT_ACCT_ID',
     strategy='timestamp',
-    updated_at='updated_at',
+    updated_at='SRC_LAST_MOD_DT',
     invalidate_hard_deletes=True
 )
 }}
